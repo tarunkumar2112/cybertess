@@ -1,4 +1,18 @@
 import React from 'react';
+import Dell from '../assets/dell.png';
+import Tesla from '../assets/tesla.png';
+import Tmobile from '../assets/t-mobile.png';
+import Yahoo from '../assets/yahoo.png';
+import United from '../assets/United States Pentagon.png';
+
+import FIrst from '../assets/Icon (1).png'
+import Second from '../assets/Icon (2).png'
+import Third from '../assets/Icon (3).png'
+import Fourth from '../assets/Icon (4).png'
+import Fifth from '../assets/Icon (5).png'
+import Six from '../assets/Icon (6).png'
+import Video from '../assets/video.png'
+
 
 const Home = () => {
   return (
@@ -17,11 +31,11 @@ const Home = () => {
       
       {/* Image Row */}
       <div className="flex justify-center mb-8">
-        <img src="image-1.jpg" alt="Image 1" className="h-16 w-16 mr-4" />
-        <img src="image-2.jpg" alt="Image 2" className="h-16 w-16 mr-4" />
-        <img src="image-3.jpg" alt="Image 3" className="h-16 w-16 mr-4" />
-        <img src="image-4.jpg" alt="Image 4" className="h-16 w-16 mr-4" />
-        <img src="image-5.jpg" alt="Image 5" className="h-16 w-16 mr-4" />
+        <img src={Tesla} alt="Image 1" className="h-16 w-16 mr-4" />
+        <img src={Tmobile} alt="Image 2" className="h-16 w-16 mr-4" />
+        <img src={Yahoo} alt="Image 3" className="h-16 w-16 mr-4" />
+        <img src={Tesla} alt="Image 4" className="h-16 w-16 mr-4" />
+        <img src={United} alt="Image 5" className="h-16 w-16 mr-4" />
       </div>
 
       {/* New Section */}
@@ -35,32 +49,32 @@ const Home = () => {
       
        
           <div  className="bg-gray-200 p-4 rounded-md">
-            <img src="" alt="" className="h-40 w-full object-cover mb-2" />
+            <img src={FIrst} alt="" className="h-40 w-full object-cover mb-2" />
             <h3 className="text-lg font-semibold mb-1">Assist You in Detecting Instances of XSS (Cross-Site Scripting)</h3>
             <p className="text-gray-600">XSS Vulnerabilities present on your external surfaces.</p>
           </div>
           <div  className="bg-gray-200 p-4 rounded-md">
-            <img src="" alt="" className="h-40 w-full object-cover mb-2" />
+            <img src={Second} alt="" className="h-40 w-full object-cover mb-2" />
             <h3 className="text-lg font-semibold mb-1">Mobile Application Security</h3>
             <p className="text-gray-600">Specializing in iOS and APK application security.</p>
           </div>
           <div  className="bg-gray-200 p-4 rounded-md">
-            <img src="" alt="" className="h-40 w-full object-cover mb-2" />
+            <img src={Third}alt="" className="h-40 w-full object-cover mb-2" />
             <h3 className="text-lg font-semibold mb-1">CVE Based testing</h3>
             <p className="text-gray-600">Conducting CVE-based testing on all externally exposed surfaces.</p>
           </div>
           <div  className="bg-gray-200 p-4 rounded-md">
-            <img src="" alt="" className="h-40 w-full object-cover mb-2" />
+            <img src={Fourth} alt="" className="h-40 w-full object-cover mb-2" />
             <h3 className="text-lg font-semibold mb-1">Need to Add something here</h3>
             <p className="text-gray-600">AAH COME ON ADD SOMETHING</p>
           </div>
           <div  className="bg-gray-200 p-4 rounded-md">
-            <img src="" alt="" className="h-40 w-full object-cover mb-2" />
+            <img src={Fifth} alt="" className="h-40 w-full object-cover mb-2" />
             <h3 className="text-lg font-semibold mb-1">OSINT Automation</h3>
             <p className="text-gray-600">Enhance threat intelligence with automated OSINT tools for faster insights</p>
           </div>
           <div  className="bg-gray-200 p-4 rounded-md">
-            <img src="" alt="" className="h-40 w-full object-cover mb-2" />
+            <img src={Six} alt="" className="h-40 w-full object-cover mb-2" />
             <h3 className="text-lg font-semibold mb-1">Continued Automated threat Intelligence</h3>
             <p className="text-gray-600">Seamlessly Adapt to Emerging Threats with Continuous Automated Intelligence</p>
           </div>
@@ -87,7 +101,7 @@ const Home = () => {
         <div className="md:w-1/2">
         <div className="tilt-container">
   <div className="tilt-content">
-    <img src="image.jpg" alt="Tilted Image" className="rounded-md shadow-lg" />
+    <img src={Video} alt="Tilted Image" className="rounded-md shadow-lg" />
   </div>
 </div>
 

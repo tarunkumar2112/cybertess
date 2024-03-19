@@ -2,6 +2,7 @@
 
 import React from 'react';
 import { Link } from 'react-router-dom';
+import Graphics from '../assets/Graphic.png'
 
 const Footer = () => {
   return (
@@ -9,7 +10,7 @@ const Footer = () => {
       {/* First Row: Logo, Navigation Links, and Social Media Icons */}
       <div className="flex justify-between items-center mb-4">
         {/* Logo */}
-        <Link to="/" className="text-white text-lg font-semibold">Cybertess Security Inc.</Link>
+        <Link to="/" className="flex text-white text-lg font-semibold"><span className='graphic'><img src={Graphics} /></span> Cybertess Security Inc.</Link>
 
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-4">

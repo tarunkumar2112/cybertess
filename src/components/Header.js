@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-
+import Graphics from '../assets/Graphic.png'
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="bg-gray-800 p-4 flex justify-between items-center">
       {/* Logo */}
-      <Link to="/" className="text-white text-lg font-semibold">Cybertess Security Inc.</Link>
+      <Link to="/" className="flex text-white text-lg font-semibold"><span className='graphic'><img src={Graphics} /></span> Cybertess Security Inc.</Link>
 
       {/* Mobile Navigation Toggle */}
       <button onClick={toggleMenu} className="md:hidden text-white">
