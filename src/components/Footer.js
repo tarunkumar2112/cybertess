@@ -3,6 +3,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Graphics from '../assets/Graphic.png'
+import Twitter from '../assets/X.png'
+import Facebook from '../assets/Facebook.png'
+import Insta from '../assets/Instagram.png'
+import Tiktok from '../assets/TikTok.png'
+import Youtube from '../assets/YouTube.png'
 
 const Footer = () => {
   return (
@@ -25,11 +30,12 @@ const Footer = () => {
         {/* Social Media Icons */}
         <div className="flex space-x-4">
           {/* Replace the src attribute with the URLs of your social media icons */}
-          <img src="social-icon-1.png" alt="Social Media Icon" className="h-6 w-6" />
-          <img src="social-icon-2.png" alt="Social Media Icon" className="h-6 w-6" />
-          <img src="social-icon-3.png" alt="Social Media Icon" className="h-6 w-6" />
-          <img src="social-icon-4.png" alt="Social Media Icon" className="h-6 w-6" />
-          <img src="social-icon-5.png" alt="Social Media Icon" className="h-6 w-6" />
+          <a href="#" target="_blank"><img src={Facebook} alt="Social Media Icon" className="h-6 w-6" /></a>
+          <a href="#" target="_blank"><img src={Insta} alt="Social Media Icon" className="h-6 w-6" /></a>
+          <a href="#" target="_blank"><img src={Twitter} alt="Social Media Icon" className="h-6 w-6" /></a>
+          <a href="#" target="_blank"><img src={Tiktok} alt="Social Media Icon" className="h-6 w-6" /></a>
+          <a href="#" target="_blank"><img src={Youtube} alt="Social Media Icon" className="h-6 w-6" /></a>
+
         </div>
       </div>
 
