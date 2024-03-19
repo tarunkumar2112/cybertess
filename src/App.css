@@ -36,3 +36,15 @@
     transform: rotate(360deg);
   }
 }
+.tilt-container {
+  perspective: 1000px;
+}
+
+.tilt-content {
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
+.tilt-container:hover .tilt-content {
+  transform: rotateY(10deg) rotateX(10deg);
+}
