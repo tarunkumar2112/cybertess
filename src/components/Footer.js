@@ -9,13 +9,15 @@ const Footer = () => {
       {/* First Row: Logo, Navigation Links, and Social Media Icons */}
       <div className="flex justify-between items-center mb-4">
         {/* Logo */}
-        <Link to="/" className="text-white text-lg font-semibold">Logo</Link>
+        <Link to="/" className="text-white text-lg font-semibold">Cybertess Security Inc.</Link>
 
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-4">
           <Link to="/" className="text-white hover:text-gray-300">Home</Link>
-          <Link to="/about" className="text-white hover:text-gray-300">About</Link>
           <Link to="/services" className="text-white hover:text-gray-300">Services</Link>
+          <Link to="/about" className="text-white hover:text-gray-300">About</Link>
+          <Link to="/about" className="text-white hover:text-gray-300">Work</Link>
+          <Link to="/about" className="text-white hover:text-gray-300">Pricing</Link>
           <Link to="/contact" className="text-white hover:text-gray-300">Contact</Link>
         </nav>
 
@@ -32,7 +34,7 @@ const Footer = () => {
 
       {/* Second Row: Copyright */}
       <div className="text-center text-gray-400">
-        &copy; 2024 Your Company Name. All rights reserved.
+        &copy; 2024 Cybertess Security Inc. All rights reserved.
       </div>
     </footer>
   );

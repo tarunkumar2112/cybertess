@@ -13,7 +13,7 @@ const Header = () => {
   return (
     <header className="bg-gray-800 p-4 flex justify-between items-center">
       {/* Logo */}
-      <Link to="/" className="text-white text-lg font-semibold">Logo</Link>
+      <Link to="/" className="text-white text-lg font-semibold">Cybertess Security Inc.</Link>
 
       {/* Mobile Navigation Toggle */}
       <button onClick={toggleMenu} className="md:hidden text-white">
@@ -28,14 +28,17 @@ const Header = () => {
       {/* Navigation Links */}
       <nav className={`${isMenuOpen ? 'flex flex-col md:flex md:flex-row' : 'hidden md:flex md:flex-row'} md:space-x-4`}>
         <Link to="/" className="text-white hover:text-gray-300">Home</Link>
-        <Link to="/about" className="text-white hover:text-gray-300">About</Link>
         <Link to="/services" className="text-white hover:text-gray-300">Services</Link>
+        <Link to="/about" className="text-white hover:text-gray-300">About</Link>
+        <Link to="/services" className="text-white hover:text-gray-300">Work</Link>
+        <Link to="/services" className="text-white hover:text-gray-300">Pricing</Link>
+
         <Link to="/contact" className="text-white hover:text-gray-300">Contact</Link>
       </nav>
 
       {/* Sign-in Button */}
       <button className={`${isMenuOpen ? 'block' : 'hidden'} md:block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded`}>
-        Sign In
+        SignIn
       </button>
     </header>
   );
