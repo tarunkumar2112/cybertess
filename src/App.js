@@ -15,7 +15,7 @@ const App = () => {
     <Router>
       <div>
         <Header />
-        <div className="container mx-auto py-8">
+        <div className="">
           <Routes>
            
             <Route path="/" element={<Home />} />

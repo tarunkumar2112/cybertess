@@ -11,7 +11,9 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-gray-800 p-4 flex justify-between items-center">
+    <header className="absolute w-full py-[20px] ">
+      <div className='max-w-[1200px] w-full mx-auto px-[15px]'>
+        <div className='flex justify-between items-center'>
       {/* Logo */}
       <Link to="/" className="flex text-white text-lg font-semibold"><span className='graphic'><img src={Graphics} /></span> Cybertess Security Inc.</Link>
 
@@ -26,20 +28,22 @@ const Header = () => {
       </button>
 
       {/* Navigation Links */}
-      <nav className={`${isMenuOpen ? 'flex flex-col md:flex md:flex-row' : 'hidden md:flex md:flex-row'} md:space-x-4`}>
-        <Link to="/" className="text-white hover:text-gray-300">Home</Link>
-        <Link to="/services" className="text-white hover:text-gray-300">Services</Link>
-        <Link to="/about" className="text-white hover:text-gray-300">About</Link>
-        <Link to="/services" className="text-white hover:text-gray-300">Work</Link>
-        <Link to="/services" className="text-white hover:text-gray-300">Pricing</Link>
+      <nav className={`${isMenuOpen ? 'flex flex-col md:flex md:flex-row ]' : 'hidden md:flex md:flex-row'} md:space-x-4 px-4`}>
+        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Home</Link>
+        <Link to="/services" className="text-slate-300 hover:text-white font-medium py-3 px-2">Services</Link>
+        <Link to="/about" className="text-slate-300 hover:text-white font-medium py-3 px-2">About</Link>
+        <Link to="/services" className="text-slate-300 hover:text-white font-medium py-3 px-2">Work</Link>
+        <Link to="/services" className="text-slate-300 hover:text-white font-medium py-3 px-2">Pricing</Link>
 
-        <Link to="/contact" className="text-white hover:text-gray-300">Contact</Link>
+        <Link to="/contact" className="text-slate-300 hover:text-white font-medium py-3 px-2">Contact</Link>
       </nav>
 
       {/* Sign-in Button */}
-      <button className={`${isMenuOpen ? 'block' : 'hidden'} md:block bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded`}>
-        SignIn
+      <button className={`${isMenuOpen ? 'block' : 'hidden'} md:block font-medium  text-white hover:text-gray-300  py-2 px-4 rounded`}>
+        Sign In
       </button>
+      </div>
+      </div>
     </header>
   );
 };
