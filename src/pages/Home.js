@@ -13,6 +13,9 @@ import Fifth from '../assets/Icon (5).png'
 import Six from '../assets/Icon (6).png'
 import Video from '../assets/video.png'
 import star from '../assets/star.png'
+import stars from '../assets/icon.png'
+import grids from '../assets/grid.png'
+import shapeLeft from '../assets/BG-left-top.png'
 
 
 const Home = () => {
@@ -126,47 +129,60 @@ const Home = () => {
 </div>
 </section>
  {/* New Section */}
- <section className='w-full bg-top-right-bg bg-no-repeat '>
-        <div className='max-w-[1000px] mx-auto px-[15px]'>
+ <section className='w-full bg-top-right-bg bg-no-repeat md:py-[100px] py-[50px]'>
+        <div className='max-w-[1000px] mx-auto px-[15px] relative'>
       <div className="text-center">
         <h2 className="md:text-[42px] text-[30px] font-semibold mb-2 text-white ">Know more about us?</h2>
       </div>
-        <div className="row mt-8 bg-full-BG bg-no-repeat bg-cover p-[40px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px]">
-          <div className="flex md:flex-row flex-column items-center  justify-betweengap-8">
-            <h2 className="txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold  max-w-[272px] w-full text-center max-w-[272px] w-full mr-4 text-center">SEO</h2>
+        <div className="row mt-8 bg-full-BG bg-center bg-no-repeat bg-cover md:py-[77.5px] md:pl-[60px] md:pr-[80px] py-[30px] px-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl">
+          <div className="md:flex md:flex-row flex-column items-center  justify-between gap-8">
+          <div className='max-w-[272px] w-full md:text-center relative'>
+          <h2 className="opacity-50 txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold ">SEO</h2>
+          <img src={grids} alt="Image 1" className="h-auto max-w-full absolute top-0 left-0" />
+          </div>
+            
             <div className="content max-w-[470px] w-full">
-              <h5 className="text-lg">Founder</h5>
-              <h2 className="text-2xl">Arman Surti</h2>
-              <p className="text-base">Exemplifying expertise in web application security through continuous bug bounty and research endeavors since 2018. Recognized as a top 35 researcher on the Bugcrowd platform and honored as the Most Valuable Hacker of 2022, my proficiency is evident in the impactful contributions to cybersecurity. Explore my bounty profiles on platforms such as Bugcrowd and HackerOne to witness a track record of excellence.</p>
-              <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">Our Work</button>
+            <h5 className="text-[14px] flex items-center bg-[#1E1333] text-white py-[5px] px-[10px] rounded-[40px] border border-solid border-slate-400/40 mb-4"><img src={stars} alt="Image 5" className="  " />Founder</h5>
+              <h2 className="text-2xl mb-4 text-white font-medium">Arman Surti</h2>
+              <p className="text-base text-Paragraph">Exemplifying expertise in web application security through continuous bug bounty and research endeavors since 2018. Recognized as a top 35 researcher on the Bugcrowd platform and honored as the Most Valuable Hacker of 2022, my proficiency is evident in the impactful contributions to cybersecurity. Explore my bounty profiles on platforms such as Bugcrowd and HackerOne to witness a track record of excellence.</p>
+              <button className="bg-[#1E1333] transition-all hover:bg-[#DBD9DE] text-white hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Our Work</button>
             </div>
           </div>
         </div>
 
-        <div className="row mt-8 bg-full-BG bg-no-repeat bg-cover p-[40px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px]">
+        <div className="row mt-8 bg-full-BG bg-center bg-no-repeat bg-cover md:py-[77.5px] md:pl-[60px] md:pr-[80px] py-[30px] px-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl">
 
-        <div className="flex md:flex-row justify-between flex-column items-center gap-8">
+        <div className="md:flex md:flex-row justify-between flex-column items-center gap-8">
           <div className="content max-w-[470px] w-full">
-            <h5 className="text-lg">Senior Application Security</h5>
-            <h2 className="text-2xl ">El Mehdi Mhrassel </h2>
-            <p className="text-base">El Mehdi Mhrassel, a seasoned professional in bug bounty hunting since 2018, brings a wealth of experience to our cybersecurity team. With a remarkable track record, he has successfully identified vulnerabilities in Fortune 500 companies known for their strong security measures. Additionally, he has discovered zero-day exploits in prominent products, showcasing his expertise that significantly contributes to our commitment to ensuring robust security for our clients.</p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">Learn More</button>
+          <h5 className="text-[14px] flex items-center bg-[#1E1333] text-white py-[5px] px-[10px] rounded-[40px] border border-solid border-slate-400/40 mb-4"><img src={stars} alt="Image 5" className="  " />Senior Application Security</h5>
+            <h2 className="text-2xl mb-4 text-white font-medium ">El Mehdi Mhrassel </h2>
+            <p className="text-base text-Paragraph">El Mehdi Mhrassel, a seasoned professional in bug bounty hunting since 2018, brings a wealth of experience to our cybersecurity team. With a remarkable track record, he has successfully identified vulnerabilities in Fortune 500 companies known for their strong security measures. Additionally, he has discovered zero-day exploits in prominent products, showcasing his expertise that significantly contributes to our commitment to ensuring robust security for our clients.</p>
+            <button className="bg-[#1E1333] transition-all hover:bg-[#DBD9DE] text-white hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Learn More</button>
           </div>
-          <h2 className="txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold  max-w-[272px] w-full text-center max-w-[272px] w-full text-center">DEV</h2>
+          <div className='max-w-[272px] w-full md:text-center relative'>
+          <h2 className="opacity-50 txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold ">DEV</h2>
+          <img src={grids} alt="Image 1" className="h-auto max-w-full absolute top-0 left-0" />
+          </div>
+          
         </div>
         </div>
-        <div className="row mt-8 bg-full-BG bg-no-repeat bg-cover p-[40px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px]">
+        <div className="row mt-8 bg-full-BG bg-center bg-no-repeat bg-cover md:py-[77.5px] md:pl-[60px] md:pr-[80px] py-[30px] px-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl">
 
-        <div className="flex md:flex-row justify-between flex-column items-center gap-8">
-          <h2 className="txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold  max-w-[272px] w-full text-center">WEB</h2>
+        <div className="md:flex md:flex-row justify-between flex-column items-center gap-8">
+          <div className='max-w-[272px] w-full md:text-center relative'>
+          <h2 className="opacity-50 txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold ">WEB</h2>
+          <img src={grids} alt="Image 1" className="h-auto max-w-full absolute top-0 left-0" />
+          </div>
+          
           <div className="content max-w-[470px] w-full">
-            <h5 className="text-lg">Crafting Digital Experiences</h5>
-            <h2 className="text-2xl">we refuse to be redundant</h2>
-            <p className="text-base">We integrate collaborate, and challenge. We are digital natives embracing the creative freedom to produce solutions that connect, communicate, and inspire. We strive to stay at the forefront of the ever-evolving digital landscape, enabling us to deliver impactful marketing solutions that not only meet but exceed our clients' expectations.</p>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mt-4">Get Started</button>
+            <h5 className="text-[14px] flex items-center bg-[#1E1333] text-white py-[5px] px-[10px] rounded-[40px] border border-solid border-slate-400/40 mb-4"><img src={stars} alt="Image 5" className="  " />Crafting Digital Experiences</h5>
+            <h2 className="text-2xl mb-4 text-white font-medium">we refuse to be redundant</h2>
+            <p className="text-base text-Paragraph">We integrate collaborate, and challenge. We are digital natives embracing the creative freedom to produce solutions that connect, communicate, and inspire. We strive to stay at the forefront of the ever-evolving digital landscape, enabling us to deliver impactful marketing solutions that not only meet but exceed our clients' expectations.</p>
+            <button className="bg-[#1E1333] transition-all hover:bg-[#DBD9DE] text-white hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Get Started</button>
           </div>
         </div>
         </div>
+        <img src={shapeLeft} alt="img" className='absolute left-[-100px] bottom-0'/>
       </div>
   </section>
  {/* New Section */}
@@ -181,14 +197,14 @@ const Home = () => {
       <marquee className="flex  mb-8" direction="left" scrollamount="5">
        
           <div className="items-center flex">
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
 
           </div>
        
@@ -197,14 +213,14 @@ const Home = () => {
       {/* Second Marquee */}
       <marquee className="flex  mb-8" direction="right" scrollamount="5">
       <div className="items-center flex">
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
-            <p className="mx-2">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
+            <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
 
           </div>
       </marquee>
