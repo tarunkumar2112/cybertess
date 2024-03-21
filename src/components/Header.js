@@ -35,7 +35,7 @@ const Header = () => {
         <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Work</Link>
         <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Pricing</Link>
 
-        <Link to="/contact" className="text-slate-300 hover:text-white font-medium py-3 px-2">Contact</Link>
+        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Contact</Link>
       </nav>
 
       {/* Sign-in Button */}
