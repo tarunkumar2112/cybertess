@@ -92,6 +92,7 @@ const Home = () => {
   </div>
         </div>
       </section>
+      
          {/* New Section */}
          <section className='w-full bg-top-Left-bg bg-no-repeat '>
         <div className='max-w-[1200px] mx-auto px-[15px]'>
