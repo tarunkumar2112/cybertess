@@ -10,7 +10,7 @@ body{
     font-size: 18px; color:#B5ABCB;
 }
 .hero-bg{background-image: url(./assets/BG.png); background-repeat: no-repeat; background-size: cover; background-position: bottom center;}
-nav{background: rgba(255,255,255,0.03); border:1px solid #39334A; border-radius:50px;}
+
 .txt-stroke{   -webkit-text-stroke: 1px #39334A;  text-stroke: 1px #39334A;}
 .bg-top-Left-bg {  background-position: 4% 0%;}
 .bg-top-right-bg { background-position: 90% 0%;}

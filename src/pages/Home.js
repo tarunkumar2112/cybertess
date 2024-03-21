@@ -50,7 +50,7 @@ const Home = () => {
       <section className='w-full md:py-[100px] py-[50px]'>
         <div className='max-w-[1200px] mx-auto px-[15px]'>
             <div className="text-center md:mb-[150px] mb-[50px] relative">
-            <div className='txt-stroke absolute text-[#130629] md:text-[120px] text-[60px] font-bold top-[15px]'>
+            <div className='txt-stroke left-0 right-0 text-center absolute text-[#130629] xl:text-[120px] lg:text-[100px] text-[40px] font-bold top-[15px]'>
             Creative technology
             </div>
           <p className="text-lg flex items-center justify-center gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className="  " />
@@ -231,7 +231,7 @@ const Home = () => {
       </section>
     {/* New Section */}
     <div className='bg-HR-bg h-px w-full  bg-center bg-no-repeat'></div>
-    <section className='w-full  md:py-[100px] py-[50px]'>
+    <section className='w-full  md:pb-[100px] pb-[50px] md:pt-[100px] pt-[50px] overflow-hidden'>
       
         <div className='max-w-[1200px] mx-auto px-[15px] relative'>
           <img src={shapeLeft} alt="image" className='absolute right-[-30px] top-[50px]'/>
@@ -239,7 +239,7 @@ const Home = () => {
         <p className="text-lg flex items-center  gap-[5px] text-Primary relative"> <img src={star} alt="star-img"/>Free 30-Day Trial — No Credit Card Required.</p>
         <h2 className=" font-bold mb-2 md:text-[42px] text-[30px] text-white ">Whether you’re part of an agency or a larger team we have a plan for you</h2>
 </div>
-        <div className="md:flex md:flex-row flex-column gap-[30px] ">
+        <div className="flex md:flex-row flex-col gap-[30px] ">
           {/* Pricing Plan 1 */}
           <div className="bg-price-bg p-6 rounded-[20px] md:w-[calc(33.333% - 20px)] w-full border border-solid border-border-color">
             <p className='subtitle text-center font-medium mb-[15px] text-white'>Standard</p>
@@ -299,9 +299,9 @@ const Home = () => {
       
       </div>
     </section>
-    <section className='w-full  md:py-[100px] py-[50px] bg-last-sec-bg'>
+    <section className='w-full  md:pt-[50px] pt-[50px] md:pb-[100px] pb-[50px] bg-last-sec-bg bg-no-repeat bg-bottom'>
     <div className='max-w-[1000px] mx-auto px-[15px] relative'>
-    <div className="row mt-8 bg-full-BG bg-center bg-no-repeat bg-cover md:py-[100px] py-[50px] md:px-[100px] px-[50px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl text-center">
+    <div className="row  bg-full-BG bg-center bg-no-repeat bg-cover md:py-[100px] py-[50px] md:px-[100px] px-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl text-center">
         {/* Heading with border */}
         <div className=" mb-4">
           <h2 className=" font-medium  text-white px-4 md:text-[56px] text-[40px]">Unlimited design to support your growing business</h2>
