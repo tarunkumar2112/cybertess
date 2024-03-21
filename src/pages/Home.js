@@ -124,7 +124,6 @@ const Home = () => {
     <img src={Video} alt="Tilted Image" className="rounded-md shadow-lg" />
   </div>
 </div>
-
         </div>
       </div>
 </div>
