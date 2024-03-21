@@ -15,6 +15,7 @@ module.exports = {
         'marquee-BG': "url('../src/assets/bg-text.png')",
         'HR-bg': "url('../src/assets/HR.png')",
         'last-sec-bg': "url('../src/assets/bg-image.png')",
+        'CTA-BG': "url('../src/assets/CTA-bg.png')",
         
       },
       colors: {

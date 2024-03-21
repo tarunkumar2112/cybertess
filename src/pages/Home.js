@@ -317,14 +317,14 @@ const Home = () => {
     </section>
     <section className='w-full  md:pt-[50px] pt-[50px] md:pb-[100px] pb-[50px] bg-last-sec-bg bg-no-repeat bg-bottom'>
     <div className='max-w-[1000px] mx-auto px-[15px] relative'>
-    <div className="row  bg-full-BG bg-center bg-no-repeat bg-cover md:py-[100px] py-[50px] md:px-[100px] px-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl text-center">
+    <div className="row  bg-CTA-BG bg-center bg-no-repeat bg-cover md:py-[82px] py-[50px] md:px-[82px] px-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl text-center">
         {/* Heading with border */}
         <div className=" mb-4">
           <h2 className=" font-medium  text-white px-4 md:text-[56px] text-[40px]">Unlimited design to support your growing business</h2>
         </div>
 
         {/* CTA button */}
-        <button className="bg-[#DBD9DE] transition-all hover:bg-[#1E1333] text-[#2E1C63] hover:text-white font-medium py-4 px-4 rounded-[40px] mb-2 md:mb-0 md:mr-4 border border-solid border-transparent hover:border-slate-400/40 text-[14px]">Get Started</button>
+        <button className="bg-[#DBD9DE] transition-all hover:bg-[#1E1333] text-[#2E1C63] hover:text-white font-medium py-4 px-8 rounded-[40px]  mt-8 border border-solid border-transparent hover:border-slate-400/40 text-[14px]">Get Started</button>
 
        
       </div>
