@@ -99,7 +99,7 @@ const Home = () => {
          {/* New Section */}
          <section className='w-full bg-top-Left-bg bg-no-repeat '>
         <div className='max-w-[1200px] mx-auto px-[15px]'>
-         <div className="max-w-full w-full p-8 flex flex-col md:flex-row justify-between items-start md:gap-[65px] gap-[30px] mb-8">
+         <div className="max-w-full w-full py-8 flex flex-col md:flex-row justify-between items-start md:gap-[65px] gap-[30px] mb-8">
         {/* Left Side */}
         <div className="md:w-[60%] mb-4 md:mb-0">
         <p className="text-lg mb-[15px] flex items-start  gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className=" mt-[6px] " />Empowering Businesses to Enhance Their Online Exposure</p>
