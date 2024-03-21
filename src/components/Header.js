@@ -15,7 +15,7 @@ const Header = () => {
       <div className='max-w-[1200px] w-full mx-auto px-[15px]'>
         <div className='flex justify-between items-center'>
       {/* Logo */}
-      <Link to="/" className="flex text-white text-lg font-semibold"><span className='graphic'><img src={Graphics} /></span> Cybertess Security Inc.</Link>
+      <Link to="/" className="flex items-center gap-[5px] text-white text-[22px] font-semibold"><span className='graphic'><img src={Graphics} /></span> Cybertess Security Inc.</Link>
 
       {/* Mobile Navigation Toggle */}
       <button onClick={toggleMenu} className="lg:hidden text-white">
@@ -29,14 +29,14 @@ const Header = () => {
 
       {/* Navigation Links */}
       <nav className={`${isMenuOpen ? 'flex flex-col lg:flex lg:flex-row absolute top-[100%] right-0 left-0 mx-auto z-40 lg:relative lg:max-w-auto max-w-[90%] bg-[#1E1333] rounded-[20px] border border-solid border-slate-400/40 w-full  text-center ]' : 'hidden lg:flex lg:flex-row lg:bg-[rgba(255,255,255,0.03)]  lg:border lg:border-solid lg:border-[#39334A] lg:rounded-[40px]'} md:space-x-4 px-4`}>
-        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Home</Link>
-        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Services</Link>
-        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">About</Link>
-        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Work</Link>
-        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Pricing</Link>
+        <Link to="/" className="text-link-color hover:text-white font-medium text-sm py-3 px-2 active">Home</Link>
+        <Link to="/" className="text-link-color hover:text-white font-medium text-sm py-3 px-2">Services</Link>
+        <Link to="/" className="text-link-color hover:text-white font-medium text-sm py-3 px-2">About</Link>
+        <Link to="/" className="text-link-color hover:text-white font-medium text-sm py-3 px-2">Work</Link>
+        <Link to="/" className="text-link-color hover:text-white font-medium text-sm py-3 px-2">Pricing</Link>
 
-        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Contact</Link>
-        <button className={`${isMenuOpen ? 'block' : 'hidden'} lg:block font-medium  text-white hover:text-gray-300  py-2 px-4 rounded lg:mb-0 mb-[30px]`}>
+        <Link to="/" className="text-link-color hover:text-white font-medium text-sm py-3 px-2">Contact</Link>
+        <button className={`${isMenuOpen ? 'block' : 'hidden'} lg:hidden font-medium  text-white hover:text-gray-300  py-2 px-4 rounded lg:mb-0 mb-[30px]`}>
         Sign In
       </button>
       </nav>

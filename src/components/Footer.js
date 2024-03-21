@@ -16,7 +16,7 @@ const Footer = () => {
       {/* First Row: Logo, Navigation Links, and Social Media Icons */}
       <div className="flex md:justify-between justify-center gap-[20px] flex-wrap items-center md:py-[50px] py-[30px]">
         {/* Logo */}
-        <Link to="/" className="flex text-white text-lg font-semibold"><span className='graphic'><img src={Graphics} /></span> Cybertess Security Inc.</Link>
+        <Link to="/" className="flex items-center gap-[5px] text-white text-[22px] font-semibold"><span className='graphic'><img src={Graphics} /></span> Cybertess Security Inc.</Link>
 
         {/* Navigation Links */}
         <nav className="hidden md:flex space-x-4">

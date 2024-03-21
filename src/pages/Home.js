@@ -32,8 +32,8 @@ const Home = () => {
       
       {/* Buttons Section */}
       <div className="flex flex-col md:flex-row items-center justify-center w-full">
-        <button className="bg-[#DBD9DE] transition-all hover:bg-[#1E1333] text-[#2E1C63] hover:text-white font-medium py-2 px-4 rounded-[40px] mb-2 md:mb-0 md:mr-4 border border-solid border-transparent hover:border-slate-400/40">Get Started</button>
-        <button className="bg-[#1E1333] transition-all hover:bg-[#DBD9DE] text-white hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white">How It Works</button>
+        <button className="bg-[#DBD9DE] text-sm transition-all hover:bg-[#1E1333] text-[#2E1C63] hover:text-white font-medium py-3 px-8 rounded-[40px] mb-2 md:mb-0 md:mr-4 border border-solid border-transparent hover:border-slate-400/40">Get Started</button>
+        <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-white hover:text-[#2E1C63] font-medium py-3 px-8 rounded-[40px] border border-solid border-slate-400/40 hover:border-white">How It Works</button>
       </div>
       
       {/* Image Row */}
@@ -55,7 +55,7 @@ const Home = () => {
             </div>
           <p className="text-lg flex items-center justify-center gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className="  " />
             Outstanding Digital Products, and Experiences</p>
-            <h2 className=" font-bold mb-2 md:text-[56px] text-[40px] text-white relative">We craft brand experiences</h2>
+            <h2 className="gradient-txt font-semibold mb-2 md:text-[56px] text-[40px] text-white relative">We craft brand experiences</h2>
             
           </div>
           {/* Grid Layout */}
@@ -104,7 +104,7 @@ const Home = () => {
         {/* Left Side */}
         <div className="md:w-[60%] mb-4 md:mb-0">
         <p className="text-lg flex items-center  gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className="  " />Empowering Businesses to Enhance Their Online Exposure</p>
-          <h2 className="md:text-[42px] leading-[1.1] text-[30px] font-semibold mb-2 text-white">Discover our new ideas that evolves with your business</h2>
+          <h2 className="gradient-txt md:text-[42px] leading-[1.1] text-[30px] font-semibold mb-2 text-white">Discover our new ideas that evolves with your business</h2>
           <div className='md:mb-[60px] mb-[30px] mt-[30px]'>
           <p className="text-lg text-Paragraph mb-5">Unlock the potential and identity of your brand with our innovative and ever-evolving concept. We pride ourselves on staying at the forefront of industry trends and continuously adapting our strategies to ensure your brand's success. Discover the power of our dynamic approach and watch your brand evolve to new heights, leaving a lasting impression on your audience</p>
           </div>
@@ -142,7 +142,7 @@ const Home = () => {
  <section className='w-full bg-top-right-bg bg-no-repeat md:py-[100px] py-[50px]'>
         <div className='max-w-[1000px] mx-auto px-[15px] relative'>
       <div className="text-center">
-        <h2 className="md:text-[42px] text-[30px] font-semibold mb-2 text-white ">Know more about us?</h2>
+        <h2 className="gradient-txt md:text-[42px] text-[30px] font-semibold mb-2 text-white ">Know more about us?</h2>
       </div>
         <div className="row mt-8 bg-full-BG bg-center bg-no-repeat bg-cover md:py-[77.5px] md:pl-[60px] md:pr-[80px] py-[30px] px-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl">
           <div className="md:flex md:flex-row flex-column items-center  justify-between gap-8">
@@ -155,7 +155,7 @@ const Home = () => {
             <h5 className="text-[14px] flex items-center bg-[#1E1333] text-white py-[5px] px-[10px] rounded-[40px] border border-solid border-slate-400/40 mb-4"><img src={stars} alt="Image 5" className="  " />Founder</h5>
               <h2 className="text-2xl mb-4 text-white font-medium">Arman Surti</h2>
               <p className="text-base text-Paragraph">Exemplifying expertise in web application security through continuous bug bounty and research endeavors since 2018. Recognized as a top 35 researcher on the Bugcrowd platform and honored as the Most Valuable Hacker of 2022, my proficiency is evident in the impactful contributions to cybersecurity. Explore my bounty profiles on platforms such as Bugcrowd and HackerOne to witness a track record of excellence.</p>
-              <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Our Work</button>
+              <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-3 px-5 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Our Work</button>
             </div>
           </div>
         </div>
@@ -167,7 +167,7 @@ const Home = () => {
           <h5 className="text-[14px] flex items-center bg-[#1E1333] text-white py-[5px] px-[10px] rounded-[40px] border border-solid border-slate-400/40 mb-4"><img src={stars} alt="Image 5" className="  " />Senior Application Security</h5>
             <h2 className="text-2xl mb-4 text-white font-medium ">El Mehdi Mhrassel </h2>
             <p className="text-base text-Paragraph">El Mehdi Mhrassel, a seasoned professional in bug bounty hunting since 2018, brings a wealth of experience to our cybersecurity team. With a remarkable track record, he has successfully identified vulnerabilities in Fortune 500 companies known for their strong security measures. Additionally, he has discovered zero-day exploits in prominent products, showcasing his expertise that significantly contributes to our commitment to ensuring robust security for our clients.</p>
-            <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Learn More</button>
+            <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-3 px-5 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Learn More</button>
           </div>
           <div className='max-w-[272px] w-full md:text-center relative'>
           <h2 className="opacity-70 txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold ">DEV</h2>
@@ -188,7 +188,7 @@ const Home = () => {
             <h5 className="text-[14px] flex items-center bg-[#1E1333] text-white py-[5px] px-[10px] rounded-[40px] border border-solid border-slate-400/40 mb-4"><img src={stars} alt="Image 5" className="  " />Crafting Digital Experiences</h5>
             <h2 className="text-2xl mb-4 text-white font-medium">we refuse to be redundant</h2>
             <p className="text-base text-Paragraph">We integrate collaborate, and challenge. We are digital natives embracing the creative freedom to produce solutions that connect, communicate, and inspire. We strive to stay at the forefront of the ever-evolving digital landscape, enabling us to deliver impactful marketing solutions that not only meet but exceed our clients' expectations.</p>
-            <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Get Started</button>
+            <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-3 px-5 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Get Started</button>
           </div>
         </div>
         </div>
@@ -202,7 +202,7 @@ const Home = () => {
       <div className="text-center mb-8">
       <p className="text-lg flex items-center justify-center  gap-[5px] text-Primary relative"> <img src={star} alt="star-img"/>Read What Our Clients Have to Say About The Services We Provide</p>
 
-        <h2 className=" font-bold mb-2 md:text-[56px] text-[40px] text-white ">What our clients are saying</h2>
+        <h2 className=" gradient-txt font-semibold mb-2 md:text-[56px] text-[40px] text-white ">What our clients are saying</h2>
       </div>
       </div>
       
@@ -246,7 +246,7 @@ const Home = () => {
           <img src={shapeLeft} alt="image" className='absolute right-[-30px] top-[50px]'/>
     <div className="max-w-[725px] w-full py-8 mb-8 ">
         <p className="text-lg flex items-center  gap-[5px] text-Primary relative"> <img src={star} alt="star-img"/>Free 30-Day Trial — No Credit Card Required.</p>
-        <h2 className=" font-bold mb-2 md:text-[42px] text-[30px] text-white ">Whether you’re part of an agency or a larger team we have a plan for you</h2>
+        <h2 className=" gradient-txt font-semibold mb-2 md:text-[42px] text-[30px] text-white ">Whether you’re part of an agency or a larger team we have a plan for you</h2>
 </div>
         <div className="flex md:flex-row flex-col gap-[30px] ">
           {/* Pricing Plan 1 */}
@@ -266,7 +266,7 @@ const Home = () => {
             One year of updates</li>
           </ul>
           <div className='text-center'>
-          <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Purchase Now</button>
+          <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-3 px-5 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Purchase Now</button>
           </div>
             
           </div>
@@ -288,7 +288,7 @@ const Home = () => {
             One year of updates</li>
           </ul>
           <div className='text-center'>
-          <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Purchase Now</button>
+          <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-3 px-5 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Purchase Now</button>
           </div>
           </div>
 
@@ -308,7 +308,7 @@ const Home = () => {
             One year of updates</li>
           </ul>
           <div className='text-center'>
-          <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Purchase Now</button>
+          <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-3 px-5 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Purchase Now</button>
           </div>
           </div>
         </div>
@@ -320,7 +320,7 @@ const Home = () => {
     <div className="row  bg-CTA-BG bg-center bg-no-repeat bg-cover md:py-[82px] py-[50px] md:px-[82px] px-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl text-center">
         {/* Heading with border */}
         <div className=" mb-4">
-          <h2 className=" font-medium  text-white px-4 md:text-[56px] text-[40px]">Unlimited design to support your growing business</h2>
+          <h2 className=" gradient-txt font-semibold text-white px-4 md:text-[56px] text-[40px]">Unlimited design to support your growing business</h2>
         </div>
 
         {/* CTA button */}
