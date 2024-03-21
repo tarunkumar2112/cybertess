@@ -25,7 +25,7 @@ const Home = () => {
       <div className="hero-bg w-full md:pt-[200px] md:pb-[100px] pt-[80px] pb-[50px]">
         <div className="max-w-[1200px] mx-auto px-[15px]">
       {/* Banner Section */}
-      <div className="text-center mb-[50px]">
+      <div className="text-center md:mb-[50px] mb-[30px]">
         <h1 className="md:text-[88px] text-[50px] font-semibold mb-[30px] leading-tight text-white"> A new digital horizon<br />for your business</h1>
         <p className="text-lg text-Paragraph leading-normal mx-auto max-w-[670px]">We are a forward-thinking design studio with a proven track record of translating ingenious brand strategies into immersive and exceptional creative digital experiences that captivate and engage audiences.</p>
       </div>
@@ -37,7 +37,7 @@ const Home = () => {
       </div>
       
       {/* Image Row */}
-      <div className="flex md:flex-row flex-column flex-wrap justify-between mt-[110px] gap-4 items-center">
+      <div className="flex md:flex-row flex-column flex-wrap md:justify-between justify-center md:mt-[110px] mt-[30px] gap-4 items-center">
         <img src={Tesla} alt="Image 1" className="h-auto max-w-full  " />
         <img src={Tmobile} alt="Image 2" className="h-auto max-w-full " />
         <img src={Yahoo} alt="Image 3" className="h-auto max-w-full  " />
@@ -50,10 +50,10 @@ const Home = () => {
       <section className='w-full md:py-[100px] py-[50px]'>
         <div className='max-w-[1200px] mx-auto px-[15px]'>
             <div className="text-center md:mb-[150px] mb-[50px] relative">
-            <div className='txt-stroke left-0 right-0 text-center absolute text-[#130629] xl:text-[120px] lg:text-[100px] text-[40px] font-bold top-[15px]'>
+            <div className='txt-stroke left-0 right-0 text-center absolute text-[#130629] xl:text-[120px] lg:text-[100px] text-[80px] font-bold lg:top-[15px] top-[50px] md:block hidden'>
             Creative technology
             </div>
-          <p className="text-lg flex items-center justify-center gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className="  " />
+          <p className="text-lg flex items-start justify-center gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className="  " />
             Outstanding Digital Products, and Experiences</p>
             <h2 className="gradient-txt font-semibold mb-2 md:text-[56px] text-[40px] text-white relative">We craft brand experiences</h2>
             
