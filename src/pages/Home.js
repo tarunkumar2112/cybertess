@@ -111,7 +111,6 @@ const Home = () => {
           <strong className='text-white mb-[15px] block font-medium text-lg'>Select the plan that suits your requirements and budget</strong>
           <p className="text-lg text-Paragraph mb-5 text-base">Begin your digital journey by meticulously choosing the strategic plan that aligns perfectly with your business objectives. Our diverse range of plans is designed to cater to your specific needs, whether you're aiming to dominate the market, enhance brand recognition, or drive exceptional sales growth.</p>
           </div>
-
           <div className='md:mb-[50px] mb-[30px]'>
           <strong className='text-white mb-[15px] block font-medium text-lg'>Share your vision, and we'll work tirelessly to bring it to life</strong>
           <p className="text-lg text-Paragraph mb-5 text-base">Our streamlined process makes submitting your request a breeze. Share crucial details about your business goals, and any unique preferences you have in mind. Our seasoned digital marketing professionals will swiftly channel your vision into an actionable strategy that leverages cutting-edge digital tools and trends.</p>
