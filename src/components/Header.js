@@ -30,12 +30,12 @@ const Header = () => {
       {/* Navigation Links */}
       <nav className={`${isMenuOpen ? 'flex flex-col md:flex md:flex-row ]' : 'hidden md:flex md:flex-row'} md:space-x-4 px-4`}>
         <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Home</Link>
-        <Link to="/services" className="text-slate-300 hover:text-white font-medium py-3 px-2">Services</Link>
-        <Link to="/about" className="text-slate-300 hover:text-white font-medium py-3 px-2">About</Link>
-        <Link to="/services" className="text-slate-300 hover:text-white font-medium py-3 px-2">Work</Link>
-        <Link to="/services" className="text-slate-300 hover:text-white font-medium py-3 px-2">Pricing</Link>
+        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Services</Link>
+        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">About</Link>
+        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Work</Link>
+        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Pricing</Link>
 
-        <Link to="/contact" className="text-slate-300 hover:text-white font-medium py-3 px-2">Contact</Link>
+        <Link to="/" className="text-slate-300 hover:text-white font-medium py-3 px-2">Contact</Link>
       </nav>
 
       {/* Sign-in Button */}
