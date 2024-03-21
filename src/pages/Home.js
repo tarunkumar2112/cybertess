@@ -62,33 +62,33 @@ const Home = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
       <div  className="bg-card-bg text-center bg-cover md:px-[37px] px-[30px] py-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px]">
         <img src={FIrst} alt="" className="inline-block" />
-        <h3 className="text-lg text-white font-semibold mt-4 mb-1">Assist You in Detecting Instances of XSS (Cross-Site Scripting)</h3>
-        <p className="text-Paragraph">XSS Vulnerabilities present on your external surfaces.</p>
+        <h3 className="text-lg text-white font-semibold mt-6 mb-2 min-h-[56px] flex items-center justify-center">Assist You in Detecting Instances of XSS (Cross-Site Scripting)</h3>
+        <p className="text-Paragraph text-[16px]">XSS Vulnerabilities present on your external surfaces.</p>
       </div>
       <div  className="bg-card-bg text-center bg-cover md:px-[37px] px-[30px] py-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px]">
         <img src={Second} alt="" className="inline-block" />
-        <h3 className="text-lg text-white font-semibold mt-4 mb-1">Mobile Application Security</h3>
-        <p className="text-Paragraph">Specializing in iOS and APK application security.</p>
+        <h3 className="text-lg text-white font-semibold mt-6 mb-2 min-h-[56px] flex items-center justify-center">Mobile Application Security</h3>
+        <p className="text-Paragraph text-[16px]">Specializing in iOS and APK application security.</p>
       </div>
       <div  className="bg-card-bg text-center bg-cover md:px-[37px] px-[30px] py-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px]">
         <img src={Third}alt="" className="inline-block" />
-        <h3 className="text-lg text-white font-semibold mt-4 mb-1">CVE Based testing</h3>
-        <p className="text-Paragraph">Conducting CVE-based testing on all externally exposed surfaces.</p>
+        <h3 className="text-lg text-white font-semibold mt-6 mb-2 min-h-[56px] flex items-center justify-center">CVE Based testing</h3>
+        <p className="text-Paragraph text-[16px]">Conducting CVE-based testing on all externally exposed surfaces.</p>
       </div>
       <div  className="bg-card-bg text-center bg-cover md:px-[37px] px-[30px] py-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px]">
         <img src={Fourth} alt="" className="inline-block" />
-        <h3 className="text-lg text-white font-semibold mt-4 mb-1">Need to Add something here</h3>
-        <p className="text-Paragraph">AAH COME ON ADD SOMETHING</p>
+        <h3 className="text-lg text-white font-semibold mt-6 mb-2 min-h-[56px] flex items-center justify-center">Need to Add something here</h3>
+        <p className="text-Paragraph text-[16px]">AAH COME ON ADD SOMETHING</p>
       </div>
       <div  className="bg-card-bg text-center bg-cover md:px-[37px] px-[30px] py-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px]">
         <img src={Fifth} alt="" className="inline-block" />
-        <h3 className="text-lg text-white  font-semibold mt-4 mb-1">OSINT Automation</h3>
-        <p className="text-Paragraph">Enhance threat intelligence with automated OSINT tools for faster insights</p>
+        <h3 className="text-lg text-white  font-semibold mt-6 mb-2 min-h-[56px] flex items-center justify-center">OSINT Automation</h3>
+        <p className="text-Paragraph text-[16px]">Enhance threat intelligence with automated OSINT tools for faster insights</p>
       </div>
       <div  className="bg-card-bg text-center bg-cover md:px-[37px] px-[30px] py-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px]">
         <img src={Six} alt="" className="inline-block" />
-        <h3 className="text-lg text-white font-semibold mt-4 mb-1">Continued Automated threat Intelligence</h3>
-        <p className="text-Paragraph">Seamlessly Adapt to Emerging Threats with Continuous Automated Intelligence</p>
+        <h3 className="text-lg text-white font-semibold mt-6 mb-2 min-h-[56px] flex items-center justify-center">Continued Automated threat Intelligence</h3>
+        <p className="text-Paragraph text-[16px]">Seamlessly Adapt to Emerging Threats with Continuous Automated Intelligence</p>
       </div>
   </div>
         </div>
@@ -104,16 +104,26 @@ const Home = () => {
         {/* Left Side */}
         <div className="md:w-[60%] mb-4 md:mb-0">
         <p className="text-lg flex items-center  gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className="  " />Empowering Businesses to Enhance Their Online Exposure</p>
-          <h2 className="md:text-[42px] text-[30px] font-semibold mb-2 text-white">Discover our new ideas that evolves with your business</h2>
-          <p className="text-lg text-Paragraph mb-4">Unlock the potential and identity of your brand with our innovative and ever-evolving concept. We pride ourselves on staying at the forefront of industry trends and continuously adapting our strategies to ensure your brand's success. Discover the power of our dynamic approach and watch your brand evolve to new heights, leaving a lasting impression on your audience</p>
-          <strong className='text-white'>Select the plan that suits your requirements and budget</strong>
-          <p className="text-lg text-Paragraph mb-4">Begin your digital journey by meticulously choosing the strategic plan that aligns perfectly with your business objectives. Our diverse range of plans is designed to cater to your specific needs, whether you're aiming to dominate the market, enhance brand recognition, or drive exceptional sales growth.</p>
-          <strong className='text-white'>Share your vision, and we'll work tirelessly to bring it to life</strong>
-          <p className="text-lg text-Paragraph mb-4">Our streamlined process makes submitting your request a breeze. Share crucial details about your business goals, and any unique preferences you have in mind. Our seasoned digital marketing professionals will swiftly channel your vision into an actionable strategy that leverages cutting-edge digital tools and trends.</p>
-          <strong className='text-white'>We’ll refine the designs until you’re fully satisfied</strong>
+          <h2 className="md:text-[42px] leading-[1.1] text-[30px] font-semibold mb-2 text-white">Discover our new ideas that evolves with your business</h2>
+          <div className='md:mb-[60px] mb-[30px] mt-[30px]'>
+          <p className="text-lg text-Paragraph mb-5">Unlock the potential and identity of your brand with our innovative and ever-evolving concept. We pride ourselves on staying at the forefront of industry trends and continuously adapting our strategies to ensure your brand's success. Discover the power of our dynamic approach and watch your brand evolve to new heights, leaving a lasting impression on your audience</p>
+          </div>
+          <div className='md:mb-[50px] mb-[30px]'>
+          <strong className='text-white mb-[15px] block'>Select the plan that suits your requirements and budget</strong>
+          <p className="text-lg text-Paragraph mb-5">Begin your digital journey by meticulously choosing the strategic plan that aligns perfectly with your business objectives. Our diverse range of plans is designed to cater to your specific needs, whether you're aiming to dominate the market, enhance brand recognition, or drive exceptional sales growth.</p>
+          </div>
+
+          <div className='md:mb-[50px] mb-[30px]'>
+          <strong className='text-white mb-[15px] block'>Share your vision, and we'll work tirelessly to bring it to life</strong>
+          <p className="text-lg text-Paragraph mb-5">Our streamlined process makes submitting your request a breeze. Share crucial details about your business goals, and any unique preferences you have in mind. Our seasoned digital marketing professionals will swiftly channel your vision into an actionable strategy that leverages cutting-edge digital tools and trends.</p>
+          </div>
+          <div className='md:mb-[50px] mb-[30px]'>
+          <strong className='text-white mb-[15px] block'>We’ll refine the designs until you’re fully satisfied</strong>
           <p className="text-lg text-Paragraph mb-4">We pride ourselves on transparency and teamwork. After implementing your personalized digital strategy, we enter a continuous review and refinement phase. Our dedicated team closely monitors the performance metrics, scrutinizes data, and generates regular reports.</p>
+          </div>
+          
         
-          <button class="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Scedule A Call</button>
+          <button class="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Schedule a Call</button>
           
         </div>
         
