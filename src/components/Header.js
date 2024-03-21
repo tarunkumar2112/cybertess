@@ -40,7 +40,6 @@ const Header = () => {
         Sign In
       </button>
       </nav>
-
       {/* Sign-in Button */}
       <button className={`lg:block hidden font-medium  text-link-color text-sm hover:text-white  py-2 px-4 rounded`}>
         Sign In
