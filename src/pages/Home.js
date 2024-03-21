@@ -16,6 +16,7 @@ import star from '../assets/star.png'
 import stars from '../assets/icon.png'
 import grids from '../assets/grid.png'
 import shapeLeft from '../assets/BG-left-top.png'
+import checkmark from '../assets/checkmark.png'
 
 
 const Home = () => {
@@ -137,7 +138,7 @@ const Home = () => {
         <div className="row mt-8 bg-full-BG bg-center bg-no-repeat bg-cover md:py-[77.5px] md:pl-[60px] md:pr-[80px] py-[30px] px-[30px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl">
           <div className="md:flex md:flex-row flex-column items-center  justify-between gap-8">
           <div className='max-w-[272px] w-full md:text-center relative'>
-          <h2 className="opacity-50 txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold ">SEO</h2>
+          <h2 className="opacity-70 txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold ">SEO</h2>
           <img src={grids} alt="Image 1" className="h-auto max-w-full absolute top-0 left-0" />
           </div>
             
@@ -145,7 +146,7 @@ const Home = () => {
             <h5 className="text-[14px] flex items-center bg-[#1E1333] text-white py-[5px] px-[10px] rounded-[40px] border border-solid border-slate-400/40 mb-4"><img src={stars} alt="Image 5" className="  " />Founder</h5>
               <h2 className="text-2xl mb-4 text-white font-medium">Arman Surti</h2>
               <p className="text-base text-Paragraph">Exemplifying expertise in web application security through continuous bug bounty and research endeavors since 2018. Recognized as a top 35 researcher on the Bugcrowd platform and honored as the Most Valuable Hacker of 2022, my proficiency is evident in the impactful contributions to cybersecurity. Explore my bounty profiles on platforms such as Bugcrowd and HackerOne to witness a track record of excellence.</p>
-              <button className="bg-[#1E1333] transition-all hover:bg-[#DBD9DE] text-white hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Our Work</button>
+              <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Our Work</button>
             </div>
           </div>
         </div>
@@ -157,10 +158,10 @@ const Home = () => {
           <h5 className="text-[14px] flex items-center bg-[#1E1333] text-white py-[5px] px-[10px] rounded-[40px] border border-solid border-slate-400/40 mb-4"><img src={stars} alt="Image 5" className="  " />Senior Application Security</h5>
             <h2 className="text-2xl mb-4 text-white font-medium ">El Mehdi Mhrassel </h2>
             <p className="text-base text-Paragraph">El Mehdi Mhrassel, a seasoned professional in bug bounty hunting since 2018, brings a wealth of experience to our cybersecurity team. With a remarkable track record, he has successfully identified vulnerabilities in Fortune 500 companies known for their strong security measures. Additionally, he has discovered zero-day exploits in prominent products, showcasing his expertise that significantly contributes to our commitment to ensuring robust security for our clients.</p>
-            <button className="bg-[#1E1333] transition-all hover:bg-[#DBD9DE] text-white hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Learn More</button>
+            <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Learn More</button>
           </div>
           <div className='max-w-[272px] w-full md:text-center relative'>
-          <h2 className="opacity-50 txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold ">DEV</h2>
+          <h2 className="opacity-70 txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold ">DEV</h2>
           <img src={grids} alt="Image 1" className="h-auto max-w-full absolute top-0 left-0" />
           </div>
           
@@ -170,7 +171,7 @@ const Home = () => {
 
         <div className="md:flex md:flex-row justify-between flex-column items-center gap-8">
           <div className='max-w-[272px] w-full md:text-center relative'>
-          <h2 className="opacity-50 txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold ">WEB</h2>
+          <h2 className="opacity-70 txt-stroke  text-[#130629] md:text-[120px] text-[60px] font-bold ">WEB</h2>
           <img src={grids} alt="Image 1" className="h-auto max-w-full absolute top-0 left-0" />
           </div>
           
@@ -178,7 +179,7 @@ const Home = () => {
             <h5 className="text-[14px] flex items-center bg-[#1E1333] text-white py-[5px] px-[10px] rounded-[40px] border border-solid border-slate-400/40 mb-4"><img src={stars} alt="Image 5" className="  " />Crafting Digital Experiences</h5>
             <h2 className="text-2xl mb-4 text-white font-medium">we refuse to be redundant</h2>
             <p className="text-base text-Paragraph">We integrate collaborate, and challenge. We are digital natives embracing the creative freedom to produce solutions that connect, communicate, and inspire. We strive to stay at the forefront of the ever-evolving digital landscape, enabling us to deliver impactful marketing solutions that not only meet but exceed our clients' expectations.</p>
-            <button className="bg-[#1E1333] transition-all hover:bg-[#DBD9DE] text-white hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Get Started</button>
+            <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Get Started</button>
           </div>
         </div>
         </div>
@@ -186,13 +187,16 @@ const Home = () => {
       </div>
   </section>
  {/* New Section */}
+ <section className='w-full bg-marquee-BG bg-center bg-no-repeat  md:py-[100px] py-[50px] relative'>
       {/* Centered p and h2 */}
+      <div className='max-w-[1200px] mx-auto px-[15px] relative'>
       <div className="text-center mb-8">
-      <p className="text-lg">Read What Our Clients Have to Say About The Services We Provide</p>
+      <p className="text-lg flex items-center justify-center  gap-[5px] text-Primary relative"> <img src={star} alt="star-img"/>Read What Our Clients Have to Say About The Services We Provide</p>
 
-        <h2 className="text-3xl font-bold mb-2">What our clients are saying</h2>
+        <h2 className=" font-bold mb-2 md:text-[56px] text-[40px] text-white ">What our clients are saying</h2>
       </div>
-
+      </div>
+      
       {/* First Marquee */}
       <marquee className="flex  mb-8" direction="left" scrollamount="5">
        
@@ -207,7 +211,7 @@ const Home = () => {
             <p className="mx-8 text-[14px] text-white font-medium bg-[#1E1333] rounded-[40px] border border-solid border-slate-400/40 py-3 px-5 w-[271px] whitespace-break-spaces">"The best service for startups,designers, and developers"</p>
 
           </div>
-       
+
       </marquee>
 
       {/* Second Marquee */}
@@ -224,71 +228,95 @@ const Home = () => {
 
           </div>
       </marquee>
+      </section>
     {/* New Section */}
-    <div className="max-w-4xl w-full p-8 mb-8 ">
-        <p className="text-lg">Free 30-Day Trial — No Credit Card Required.</p>
-        <h2 className="text-3xl font-bold mb-4">Whether you’re part of an agency or a larger team we have a plan for you</h2>
-
-        <div className="flex justify-center text-center">
+    <div className='bg-HR-bg h-px w-full  bg-center bg-no-repeat'></div>
+    <section className='w-full  md:py-[100px] py-[50px]'>
+      
+        <div className='max-w-[1200px] mx-auto px-[15px] relative'>
+          <img src={shapeLeft} alt="image" className='absolute right-[-30px] top-[50px]'/>
+    <div className="max-w-[725px] w-full py-8 mb-8 ">
+        <p className="text-lg flex items-center  gap-[5px] text-Primary relative"> <img src={star} alt="star-img"/>Free 30-Day Trial — No Credit Card Required.</p>
+        <h2 className=" font-bold mb-2 md:text-[42px] text-[30px] text-white ">Whether you’re part of an agency or a larger team we have a plan for you</h2>
+</div>
+        <div className="md:flex md:flex-row flex-column gap-[30px] ">
           {/* Pricing Plan 1 */}
-          <div className="bg-gray-200 p-6 rounded-md mr-4">
-            <p className='subtitle'>Standard</p>
-            <h3 className="text-xl font-semibold mb-2">$29/<span>month</span></h3>
+          <div className="bg-price-bg p-6 rounded-[20px] md:w-[calc(33.333% - 20px)] w-full border border-solid border-border-color">
+            <p className='subtitle text-center font-medium mb-[15px] text-white'>Standard</p>
+            <h3 className=" font-medium mb-2 text-center md:text-[42px] text-[30px] text-white">$29<span className='text-Paragraph text-xl font-medium'>/month</span></h3>
           <ul>
-            <li>
+          <li class="flex items-start gap-[10px;] font-[16px] py-[5px]">
+            <img className='mt-[2px]' src={checkmark} alt="checkmark"/>
             Design, prototype and illustrate
             </li>
-            <li>
+            <li class="flex items-start gap-[10px;] font-[16px] py-[5px]">
+            <img className='mt-[2px]' src={checkmark} alt="checkmark"/>
             Collaborate in real-time</li>
-            <li>
+            <li class="flex items-start gap-[10px;] font-[16px] py-[5px]">
+            <img className='mt-[2px]' src={checkmark} alt="checkmark"/>
             One year of updates</li>
           </ul>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Purchase Now</button>
+            <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Purchase Now</button>
           </div>
 
           {/* Pricing Plan 2 */}
-          <div className="bg-gray-200 p-6 rounded-md mr-4">
-            <p className='subtitle'>Bussiness</p>
-            <h3 className="text-xl font-semibold mb-2">$29/<span>month</span></h3>
+          <div className="bg-price-bg p-6 rounded-[20px] md:w-[calc(33.333% - 20px)] w-full border border-solid border-border-color">
+            <p className='subtitle text-center font-medium mb-[15px] text-white'>Bussiness</p>
+            <h3 className="font-medium mb-2 text-center md:text-[42px] text-[30px] text-white">$29<span className='text-Paragraph text-xl font-medium'>/month</span></h3>
           <ul>
-            <li>
+          <li class="flex items-start gap-[10px;] font-[16px] py-[5px]">
+            <img className='mt-[2px]' src={checkmark} alt="checkmark"/>
             Design, prototype and illustrate
             </li>
-            <li>
+            <li class="flex items-start gap-[10px;] font-[16px] py-[5px]">
+            <img className='mt-[2px]' src={checkmark} alt="checkmark"/>
             Collaborate in real-time</li>
-            <li>
+            <li class="flex items-start gap-[10px;] font-[16px] py-[5px]">
+            <img className='mt-[2px]' src={checkmark} alt="checkmark"/>
             One year of updates</li>
           </ul>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Purchase Now</button>
+            <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Purchase Now</button>
           </div>
 
-          <div className="bg-gray-200 p-6 rounded-md mr-4">
-            <p className='subtitle'>Enterprice</p>
-            <h3 className="text-xl font-semibold mb-2">$29/<span>month</span></h3>
+          <div className="bg-price-bg p-6 rounded-[20px] md:w-[calc(33.333% - 20px)] w-full border border-solid border-border-color">
+            <p className='subtitle text-center font-medium mb-[15px] text-white'>Enterprice</p>
+            <h3 className="font-medium mb-2 text-center md:text-[42px] text-[30px] text-white">$29<span className='text-Paragraph text-xl font-medium'>/month</span></h3>
           <ul>
-            <li>
+          <li class="flex items-start gap-[10px;] font-[16px] py-[5px]">
+            <img className='mt-[2px]' src={checkmark} alt="checkmark"/>
             Design, prototype and illustrate
             </li>
-            <li>
+            <li class="flex items-start gap-[10px;] font-[16px] py-[5px]">
+            <img className='mt-[2px]' src={checkmark} alt="checkmark"/>
             Collaborate in real-time</li>
-            <li>
+            <li class="flex items-start gap-[10px;] font-[16px] py-[5px]">
+            <img className='mt-[2px]' src={checkmark} alt="checkmark"/>
             One year of updates</li>
           </ul>
-            <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded">Purchase Now</button>
+            <button className="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Purchase Now</button>
           </div>
         </div>
+      
       </div>
-      <div className="max-w-4xl w-full p-8 mb-8 text-center">
+    </section>
+    <section className='w-full  md:py-[100px] py-[50px] bg-last-sec-bg'>
+    <div className='max-w-[1000px] mx-auto px-[15px] relative'>
+    <div className="row mt-8 bg-full-BG bg-center bg-no-repeat bg-cover md:py-[100px] py-[50px] md:px-[100px] px-[50px] border border-solid border-[rgba(57,51,74,0.5)] rounded-[20px] shadow-lg shadow-black-500 md:shadow-xl text-center">
         {/* Heading with border */}
         <div className=" mb-4">
-          <h2 className="text-3xl font-bold inline-block bg-white px-4">Unlimited design to support your growing business</h2>
+          <h2 className=" font-medium  text-white px-4 md:text-[56px] text-[40px]">Unlimited design to support your growing business</h2>
         </div>
 
         {/* CTA button */}
-        <button className="bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded mb-4">Get Started</button>
+        <button className="bg-[#DBD9DE] transition-all hover:bg-[#1E1333] text-[#2E1C63] hover:text-white font-medium py-4 px-4 rounded-[40px] mb-2 md:mb-0 md:mr-4 border border-solid border-transparent hover:border-slate-400/40 text-[14px]">Get Started</button>
 
        
       </div>
+    </div>
+    </section>
+      
+        
+      
     </div>
     
   );
