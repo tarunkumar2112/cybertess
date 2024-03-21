@@ -99,26 +99,26 @@ const Home = () => {
          {/* New Section */}
          <section className='w-full bg-top-Left-bg bg-no-repeat '>
         <div className='max-w-[1200px] mx-auto px-[15px]'>
-         <div className="max-w-full w-full p-8 flex flex-col md:flex-row justify-between items-center mb-8">
+         <div className="max-w-full w-full p-8 flex flex-col md:flex-row justify-between items-start md:gap-[65px] gap-[30px] mb-8">
         {/* Left Side */}
         <div className="md:w-[60%] mb-4 md:mb-0">
-        <p className="text-lg flex items-start  gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className=" mt-[6px] " />Empowering Businesses to Enhance Their Online Exposure</p>
+        <p className="text-lg mb-[15px] flex items-start  gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className=" mt-[6px] " />Empowering Businesses to Enhance Their Online Exposure</p>
           <h2 className="gradient-txt md:text-[42px] leading-[1.1] text-[30px] font-semibold mb-2 text-white">Discover our new ideas that evolves with your business</h2>
           <div className='md:mb-[60px] mb-[30px] mt-[30px]'>
-          <p className="text-lg text-Paragraph mb-5">Unlock the potential and identity of your brand with our innovative and ever-evolving concept. We pride ourselves on staying at the forefront of industry trends and continuously adapting our strategies to ensure your brand's success. Discover the power of our dynamic approach and watch your brand evolve to new heights, leaving a lasting impression on your audience</p>
+          <p className="text-base text-Paragraph mb-5">Unlock the potential and identity of your brand with our innovative and ever-evolving concept. We pride ourselves on staying at the forefront of industry trends and continuously adapting our strategies to ensure your brand's success. Discover the power of our dynamic approach and watch your brand evolve to new heights, leaving a lasting impression on your audience</p>
           </div>
           <div className='md:mb-[50px] mb-[30px]'>
-          <strong className='text-white mb-[15px] block'>Select the plan that suits your requirements and budget</strong>
-          <p className="text-lg text-Paragraph mb-5">Begin your digital journey by meticulously choosing the strategic plan that aligns perfectly with your business objectives. Our diverse range of plans is designed to cater to your specific needs, whether you're aiming to dominate the market, enhance brand recognition, or drive exceptional sales growth.</p>
+          <strong className='text-white mb-[15px] block font-medium text-lg'>Select the plan that suits your requirements and budget</strong>
+          <p className="text-lg text-Paragraph mb-5 text-base">Begin your digital journey by meticulously choosing the strategic plan that aligns perfectly with your business objectives. Our diverse range of plans is designed to cater to your specific needs, whether you're aiming to dominate the market, enhance brand recognition, or drive exceptional sales growth.</p>
           </div>
 
           <div className='md:mb-[50px] mb-[30px]'>
-          <strong className='text-white mb-[15px] block'>Share your vision, and we'll work tirelessly to bring it to life</strong>
-          <p className="text-lg text-Paragraph mb-5">Our streamlined process makes submitting your request a breeze. Share crucial details about your business goals, and any unique preferences you have in mind. Our seasoned digital marketing professionals will swiftly channel your vision into an actionable strategy that leverages cutting-edge digital tools and trends.</p>
+          <strong className='text-white mb-[15px] block font-medium text-lg'>Share your vision, and we'll work tirelessly to bring it to life</strong>
+          <p className="text-lg text-Paragraph mb-5 text-base">Our streamlined process makes submitting your request a breeze. Share crucial details about your business goals, and any unique preferences you have in mind. Our seasoned digital marketing professionals will swiftly channel your vision into an actionable strategy that leverages cutting-edge digital tools and trends.</p>
           </div>
           <div className='md:mb-[50px] mb-[30px]'>
-          <strong className='text-white mb-[15px] block'>We’ll refine the designs until you’re fully satisfied</strong>
-          <p className="text-lg text-Paragraph mb-4">We pride ourselves on transparency and teamwork. After implementing your personalized digital strategy, we enter a continuous review and refinement phase. Our dedicated team closely monitors the performance metrics, scrutinizes data, and generates regular reports.</p>
+          <strong className='text-white mb-[15px] block font-medium text-lg'>We’ll refine the designs until you’re fully satisfied</strong>
+          <p className="text-lg text-Paragraph mb-4 text-base">We pride ourselves on transparency and teamwork. After implementing your personalized digital strategy, we enter a continuous review and refinement phase. Our dedicated team closely monitors the performance metrics, scrutinizes data, and generates regular reports.</p>
           </div>
           
         
