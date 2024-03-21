@@ -53,7 +53,7 @@ const Home = () => {
             <div className='txt-stroke left-0 right-0 text-center absolute text-[#130629] xl:text-[120px] lg:text-[100px] text-[80px] font-bold lg:top-[15px] top-[50px] md:block hidden'>
             Creative technology
             </div>
-          <p className="text-lg flex items-start justify-center gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className="  " />
+          <p className="text-lg flex items-start justify-center gap-[5px] text-Primary relative"><img className="mt-[6px]" src={star} alt="Image 5" />
             Outstanding Digital Products, and Experiences</p>
             <h2 className="gradient-txt font-semibold mb-2 md:text-[56px] text-[40px] text-white relative">We craft brand experiences</h2>
           </div>
@@ -102,7 +102,7 @@ const Home = () => {
          <div className="max-w-full w-full p-8 flex flex-col md:flex-row justify-between items-center mb-8">
         {/* Left Side */}
         <div className="md:w-[60%] mb-4 md:mb-0">
-        <p className="text-lg flex items-center  gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className="  " />Empowering Businesses to Enhance Their Online Exposure</p>
+        <p className="text-lg flex items-start  gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className=" mt-[6px] " />Empowering Businesses to Enhance Their Online Exposure</p>
           <h2 className="gradient-txt md:text-[42px] leading-[1.1] text-[30px] font-semibold mb-2 text-white">Discover our new ideas that evolves with your business</h2>
           <div className='md:mb-[60px] mb-[30px] mt-[30px]'>
           <p className="text-lg text-Paragraph mb-5">Unlock the potential and identity of your brand with our innovative and ever-evolving concept. We pride ourselves on staying at the forefront of industry trends and continuously adapting our strategies to ensure your brand's success. Discover the power of our dynamic approach and watch your brand evolve to new heights, leaving a lasting impression on your audience</p>
@@ -199,7 +199,7 @@ const Home = () => {
       {/* Centered p and h2 */}
       <div className='max-w-[1200px] mx-auto px-[15px] relative'>
       <div className="text-center mb-8">
-      <p className="text-lg flex items-center justify-center  gap-[5px] text-Primary relative"> <img src={star} alt="star-img"/>Read What Our Clients Have to Say About The Services We Provide</p>
+      <p className="text-lg flex items-start justify-center  gap-[5px] text-Primary relative"> <img className='mt-[6px]' src={star} alt="star-img"/>Read What Our Clients Have to Say About The Services We Provide</p>
 
         <h2 className=" gradient-txt font-semibold mb-2 md:text-[56px] text-[40px] text-white ">What our clients are saying</h2>
       </div>
@@ -272,7 +272,7 @@ const Home = () => {
         <div className='max-w-[1200px] mx-auto px-[15px] relative'>
           <img src={shapeLeft} alt="image" className='absolute right-[-30px] top-[50px]'/>
     <div className="max-w-[725px] w-full py-8 mb-8 ">
-        <p className="text-lg flex items-center  gap-[5px] text-Primary relative"> <img src={star} alt="star-img"/>Free 30-Day Trial — No Credit Card Required.</p>
+        <p className="text-lg flex items-start  gap-[5px] text-Primary relative"> <img className='mt-[6px]' src={star} alt="star-img"/>Free 30-Day Trial — No Credit Card Required.</p>
         <h2 className=" gradient-txt font-semibold mb-2 md:text-[42px] text-[30px] text-white ">Whether you’re part of an agency or a larger team we have a plan for you</h2>
 </div>
         <div className="flex md:flex-row flex-col gap-[30px] ">
