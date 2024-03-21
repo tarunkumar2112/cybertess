@@ -56,7 +56,6 @@ const Home = () => {
           <p className="text-lg flex items-start justify-center gap-[5px] text-Primary relative"><img src={star} alt="Image 5" className="  " />
             Outstanding Digital Products, and Experiences</p>
             <h2 className="gradient-txt font-semibold mb-2 md:text-[56px] text-[40px] text-white relative">We craft brand experiences</h2>
-            
           </div>
           {/* Grid Layout */}
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
