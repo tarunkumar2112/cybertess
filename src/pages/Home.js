@@ -113,7 +113,7 @@ const Home = () => {
           <strong className='text-white'>We’ll refine the designs until you’re fully satisfied</strong>
           <p className="text-lg text-Paragraph mb-4">We pride ourselves on transparency and teamwork. After implementing your personalized digital strategy, we enter a continuous review and refinement phase. Our dedicated team closely monitors the performance metrics, scrutinizes data, and generates regular reports.</p>
         
-          <button class="bg-[#1E1333] transition-all hover:bg-[#DBD9DE] text-white hover:text-[#2E1C63] font-medium py-2 mt-8 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white">Scedule A Call</button>
+          <button class="bg-[#1E1333] text-sm transition-all hover:bg-[#DBD9DE] text-[rgba(124, 124, 124, 1)] hover:text-[#2E1C63] font-medium py-2 px-4 rounded-[40px] border border-solid border-slate-400/40 hover:border-white mt-[30px]">Scedule A Call</button>
           
         </div>
         
