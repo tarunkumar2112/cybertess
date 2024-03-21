@@ -36,13 +36,13 @@ const Header = () => {
         <Link to="/" className="text-link-color hover:text-white font-medium text-sm py-3 px-2">Pricing</Link>
 
         <Link to="/" className="text-link-color hover:text-white font-medium text-sm py-3 px-2">Contact</Link>
-        <button className={`${isMenuOpen ? 'block' : 'hidden'} lg:hidden font-medium  text-white hover:text-gray-300  py-2 px-4 rounded lg:mb-0 mb-[30px]`}>
+        <button className={`${isMenuOpen ? 'block' : 'hidden'} lg:hidden font-medium  text-sm text-link-color hover:text-white  py-2 px-4 rounded lg:mb-0 mb-[30px]`}>
         Sign In
       </button>
       </nav>
 
       {/* Sign-in Button */}
-      <button className={`lg:block hidden font-medium  text-white hover:text-gray-300  py-2 px-4 rounded`}>
+      <button className={`lg:block hidden font-medium  text-link-color text-sm hover:text-white  py-2 px-4 rounded`}>
         Sign In
       </button>
       </div>
